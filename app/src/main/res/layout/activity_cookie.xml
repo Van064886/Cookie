@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background"
+        tools:context=".CookieActivity">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/count"
+            android:textColor="@color/white"
+            android:textSize="32dp"
+            android:paddingLeft="10dp"
+            android:fontFamily="monospace"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/cookieView"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginTop="200dp"
+            app:srcCompat="@drawable/cookie"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>

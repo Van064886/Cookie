@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">coursGraven</string>
+    <string name="welcome_msg">Bienvenue sur mon application</string>
+    <string name="count">Points : </string>
+</resources>
